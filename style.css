@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+nav{
+    display: flex;
+    padding: 10px 2%;
+    align-items: center;
+}
+
+nav #logo img{
+    width: 125px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav button:is(#hire, #join){
+padding: 10px 30px;
+margin: 5px 10px;
+border: none;
+}
+
+nav button#hire {
+    margin-left: auto;
+    background-color: blue;
+    color: white;
+
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: blue;
+}
+
+nav button#join{
+    background-color: yellow;
+    color: white;
+    margin-right: 20px;
+
+}
